@@ -462,9 +462,9 @@ class TestUsersGroupsSchema:
                     SchemaValidationError,
                     match=(
                         "Cloud config schema deprecations: user.sudo:"
-                        "  Changed in version 22.2. The value "
-                        "``false`` is deprecated for this key, use "
-                        "``null`` instead."
+                        "  Changed in version 22.2. The value of type"
+                        " boolean is deprecated for this key, use a "
+                        "string value or ``null`` instead."
                     ),
                 ),
                 False,
