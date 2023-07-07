@@ -295,7 +295,7 @@
               "type": "boolean",
               "changed": true,
               "changed_version": "22.2",
-              "changed_description": "The value ``false`` is deprecated for this key, use ``null`` instead."
+              "changed_description": "Values of type boolean is deprecated for this key, use a string value or ``null`` instead."
             }
           ]
         },
